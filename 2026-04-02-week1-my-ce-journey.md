@@ -12,7 +12,7 @@ My first proper week of 2nd semester and already my brain feels like it's runnin
 
 ## What I Learned This Week
 
-### OOP in C# 💻
+### OOP in C# 
 
 We started Object Oriented Programming in C#. Coming from Python in 1st semester, C# feels very *strict* — every variable needs a type, every class needs proper structure. But slowly I'm getting it!
 
