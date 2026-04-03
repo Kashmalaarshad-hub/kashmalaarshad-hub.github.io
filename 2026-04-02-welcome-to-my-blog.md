@@ -6,7 +6,7 @@ categories: [CE Journey]
 description: My first blog post — introducing myself and my CE journey at UET Faisalabad.
 ---
 
-## Hello Everyone! 👋
+## Hello Everyone! 
 
 Assalam o Alaikum! I'm **Kashmala Arshad**, a Computer Engineering student at UET Faisalabad. Welcome to my blog — my little corner of the internet where I'll be sharing my CE journey, weekly learnings, and everything in between!
 
@@ -26,4 +26,4 @@ Starting this blog as part of my lab task — but honestly, I think it's a great
 
 I'm from Faisalabad, Pakistan. Currently in my 2nd semester studying subjects like Digital Logic Design, OOP in C#, and Database Systems. My dream is to become a skilled software engineer and entrepreneur someday inshaAllah!
 
-Stay tuned for more posts. JazakAllah Khair for reading! 🌸
+Stay tuned for more posts. JazakAllah Khair for reading! 
