@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog — </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/">✿ Kashmala</a>
+      <ul class="nav-links">
+        <li><a href="/" >Home</a></li>
+        <li><a href="/about" >About</a></li>
+        <li><a href="/blog" class="active">Blog</a></li>
+        <li><a href="/contact" >Contact</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="blog-page">
+  <div class="blog-header">
+    <h1>📖 My Blog</h1>
+    <p>Weekly reflections, lab notes, and CE journey posts 🌸</p>
+  </div>
+
+  
+  <a href="/kashmalaarshad-hub.github.io/jekyll/update/2026/04/05/welcome-to-jekyll.html" class="post-card">
+    <div class="post-card-meta">
+      <span class="tag">kashmalaarshad-hub.github.io</span>
+      <span class="post-date">April 05, 2026</span>
+    </div>
+    <h2>Welcome to Jekyll!</h2>
+    <p>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...</p>
+    <span class="read-more">Read more →</span>
+  </a>
+  
+
+  
+</div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Kashmala Arshad &nbsp;·&nbsp; CE Student at UET Faisalabad &nbsp;·&nbsp; Made with 💗</p>
+    <div class="footer-links">
+      <a href="https://github.com/Kashmalaarshad-hub" target="_blank">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const m = document.getElementById('mobileMenu');
+      m.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

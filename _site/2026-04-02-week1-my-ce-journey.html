@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Week 1: My CE Journey - The Syntax War Begins — </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/">✿ Kashmala</a>
+      <ul class="nav-links">
+        <li><a href="/" >Home</a></li>
+        <li><a href="/about" >About</a></li>
+        <li><a href="/blog" >Blog</a></li>
+        <li><a href="/contact" >Contact</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="post-page">
+  <div class="post-header">
+    <div class="post-meta-top">
+      <span class="post-category">Programming</span>
+      <span class="post-date">April 02, 2026</span>
+    </div>
+    <h1>Week 1: My CE Journey - The Syntax War Begins</h1>
+    
+    <p class="post-subtitle">My first week diving into C# OOP and Digital Logic Design — it was a battle!</p>
+    
+  </div>
+
+  <article class="post-content">
+    <h2 id="the-syntax-war-begins-️">The Syntax War Begins ⚔️</h2>
+
+<p>My first proper week of 2nd semester and already my brain feels like it’s running out of RAM!</p>
+
+<h2 id="what-i-learned-this-week">What I Learned This Week</h2>
+
+<h3 id="oop-in-c">OOP in C#</h3>
+
+<p>We started Object Oriented Programming in C#. Coming from Python in 1st semester, C# feels very <em>strict</em> — every variable needs a type, every class needs proper structure. But slowly I’m getting it!</p>
+
+<p>I made my first <code class="language-plaintext highlighter-rouge">BankAccount</code> class with deposit and withdrawal methods. Seeing it work was honestly so satisfying!</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">BankAccount</span> <span class="p">{</span>
+    <span class="k">public</span> <span class="kt">string</span> <span class="n">Owner</span><span class="p">;</span>
+    <span class="k">public</span> <span class="kt">double</span> <span class="n">Balance</span><span class="p">;</span>
+    
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">Deposit</span><span class="p">(</span><span class="kt">double</span> <span class="n">amount</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">Balance</span> <span class="p">+=</span> <span class="n">amount</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="digital-logic-design-">Digital Logic Design 🔌</h3>
+
+<p>DLD is fascinating! We’re learning about logic gates — AND, OR, NOT, NAND, NOR. It’s like the foundation of how computers actually work at the hardware level.</p>
+
+<p>Boolean algebra is tricky but once you understand K-maps, simplification becomes fun (kind of)!</p>
+
+<h2 id="challenges-this-week">Challenges This Week</h2>
+
+<ul>
+  <li>C# syntax errors were my worst enemy 😅</li>
+  <li>Staying focused during long lab sessions</li>
+  <li>Managing assignments across 5 subjects</li>
+</ul>
+
+<h2 id="whats-next">What’s Next</h2>
+
+<p>Next week we’re going deeper into inheritance and polymorphism in C#. Also have a DLD lab on adder circuits. Pray for me! 🤲</p>
+
+<p>Alhamdulillah for every small victory! 🌸</p>
+
+  </article>
+
+  <div class="post-footer">
+    <a href="/blog" class="btn-back">← Back to Blog</a>
+  </div>
+</div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Kashmala Arshad &nbsp;·&nbsp; CE Student at UET Faisalabad &nbsp;·&nbsp; Made with 💗</p>
+    <div class="footer-links">
+      <a href="https://github.com/Kashmalaarshad-hub" target="_blank">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const m = document.getElementById('mobileMenu');
+      m.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

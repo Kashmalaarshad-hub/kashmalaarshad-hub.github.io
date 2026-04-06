@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="/">✿ Kashmala</a>
+      <ul class="nav-links">
+        <li><a href="/" >Home</a></li>
+        <li><a href="/about" >About</a></li>
+        <li><a href="/blog" >Blog</a></li>
+        <li><a href="/contact" class="active">Contact</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="contact-page">
+  <h1>📬 Contact Me</h1>
+  <p>Feel free to reach out — I'd love to connect! 🌸</p>
+
+  <div class="contact-card">
+    <h3>Get in Touch</h3>
+
+    <div class="contact-item">
+      <span class="contact-icon">📧</span>
+      <div class="contact-info">
+        <label>Email</label>
+        <a href="mailto:your-email@gmail.com">your-email@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-icon">💻</span>
+      <div class="contact-info">
+        <label>GitHub</label>
+        <a href="https://github.com/Kashmalaarshad-hub" target="_blank">github.com/Kashmalaarshad-hub</a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-icon">💼</span>
+      <div class="contact-info">
+        <label>LinkedIn</label>
+        <a href="#" target="_blank">Kashmala Arshad</a>
+      </div>
+    </div>
+
+    <div class="contact-item">
+      <span class="contact-icon">📍</span>
+      <div class="contact-info">
+        <label>Location</label>
+        <span>Faisalabad, Pakistan 🇵🇰</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Kashmala Arshad &nbsp;·&nbsp; CE Student at UET Faisalabad &nbsp;·&nbsp; Made with 💗</p>
+    <div class="footer-links">
+      <a href="https://github.com/Kashmalaarshad-hub" target="_blank">GitHub</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const m = document.getElementById('mobileMenu');
+      m.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
